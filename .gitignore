@@ -1,0 +1,53 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore Django migration files
+users/migrations/
+*/migrations/
+
+# Ignore SQLite database file
+db.sqlite3
+
+# Ignore environment variables file
+.env
+
+# Ignore Docker files
+*.log
+*.pot
+*.pyc
+.Python
+env
+venv
+ENV
+env.bak
+venv.bak
+
+# Ignore virtual environment folders
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# Ignore JetBrains project files
+.idea/
+
+# Ignore VS Code project files
+.vscode/
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore Python cache files
+*.pyc
+__pycache__/
+
+# Ignore the coverage folder
+htmlcov/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore MyPy cache
+.mypy_cache
